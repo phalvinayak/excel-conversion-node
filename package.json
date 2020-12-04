@@ -1,0 +1,22 @@
+{
+  "name": "transform-excel",
+  "version": "1.0.0",
+  "description": "Transforming Excel to Word",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vinayak Phal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "docx": "^5.4.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "morgan": "^1.10.0",
+    "read-excel-file": "^4.1.0",
+    "uuid4": "^2.0.2"
+  }
+}
